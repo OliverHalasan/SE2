@@ -1,0 +1,130 @@
+﻿@page
+@model ClubBAIST.Pages.TeeTimePage.BookTeeTimeModel
+@{
+    ViewData["Title"] = "Book Tee Time";
+}
+@{
+    ViewData["Title"] = "Tee Time Request";
+}
+
+<h1>Tee Time Request</h1>
+
+@if (!string.IsNullOrEmpty(Model.Message))
+{
+    <div class="alert alert-@(Model.Confirmation ? "success" : "danger")">
+        @Model.Message
+    </div>
+}
+
+<form method="post">
+
+    @if (Model.User.Identity.IsAuthenticated)
+    {
+        var memberIDClaim = Model.User.Claims.FirstOrDefault(c => c.Type == "MemberID");
+        if (memberIDClaim != null)
+        {
+            <div class="form-group" style="display: none;">
+                <label for="MemberNumber1">Member ID:</label>
+                <input type="text" class="form-control" id="MemberNumber1" asp-for="MemberNumber1" value="@memberIDClaim.Value" readonly>
+                <span asp-validation-for="MemberNumber1" class="text-danger"></span>
+            </div>
+        }
+        else
+        {
+            <p>Member ID claim not found</p>
+        }
+
+        var nameClaim = Model.User.Claims.FirstOrDefault(c => c.Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name");
+        if (nameClaim != null)
+        {
+            <div class="form-group">
+                <label for="Name1">Full Name:</label>
+                <input type="text" class="form-control" id="Name1" asp-for="Name1" value="@nameClaim.Value" readonly>
+                <span asp-validation-for="Name1" class="text-danger"></span>
+            </div>
+        }
+        else
+        {
+            <p>Name claim not found</p>
+        }
+    }
+
+
+    <div class="form-group">
+        <label for="MemberNumber2">Member ID:</label>
+        <input type="text" class="form-control" id="MemberNumber2" asp-for="MemberNumber2">
+        <span asp-validation-for="MemberNumber2" class="text-danger"></span>
+
+    </div>
+
+    <div class="form-group">
+        <label for="Name2">Full Name:</label>
+        <input type="text" class="form-control" id="Name2" asp-for="Name2">
+        <span asp-validation-for="Name2" class="text-danger"></span>
+
+    </div>
+
+    <div class="form-group">
+        <label for="MemberNumber3">Member ID:</label>
+        <input type="text" class="form-control" id="MemberNumber3" asp-for="MemberNumber3">
+        <span asp-validation-for="MemberNumber3" class="text-danger"></span>
+
+    </div>
+
+    <div class="form-group">
+        <label for="Name3">Full Name:</label>
+        <input type="text" class="form-control" id="Name3" asp-for="Name3">
+        <span asp-validation-for="Name3" class="text-danger"></span>
+
+    </div>
+
+    <div class="form-group">
+        <label for="MemberNumber4">Member ID:</label>
+        <input type="text" class="form-control" id="MemberNumber4" asp-for="MemberNumber4">
+        <span asp-validation-for="MemberNumber4" class="text-danger"></span>
+
+    </div>
+
+    <div class="form-group">
+        <label for="Name4">Full Name:</label>
+        <input type="text" class="form-control" id="Name4" asp-for="Name4">
+        <span asp-validation-for="Name4" class="text-danger"></span>
+
+    </div>
+
+    <div class="form-group">
+        <label for="RequestedTeeTime">Requested Tee Time:</label>
+        <input type="time" class="form-control" id="RequestedTeeTime" asp-for="RequestedTeeTime">
+        <span asp-validation-for="RequestedTeeTime" class="text-danger"></span>
+
+    </div>
+
+    <div class="form-group">
+        <label for="RequestedDate">Requested Date:</label>
+        <input type="date" class="form-control" id="RequestedDate" asp-for="RequestedDate">
+        <span asp-validation-for="RequestedDate" class="text-danger"></span>
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@section Scripts {
+    <script>
+        // Function to calculate the date of the next Sunday
+        function getNextSunday() {
+            var today = new Date();
+            var dayOfWeek = today.getDay();
+            var daysToAdd = 7 - dayOfWeek;
+            var nextSunday = new Date(today);
+            nextSunday.setDate(today.getDate() + daysToAdd);
+            return nextSunday.toISOString().slice(0, 10);
+        }
+
+        // Set the minimum date for the date input to the next Sunday
+        document.getElementById("RequestedDate").setAttribute("min", getNextSunday());
+    </script>
+}
+
+
+

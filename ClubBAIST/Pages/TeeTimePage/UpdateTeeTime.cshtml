@@ -1,0 +1,87 @@
+﻿@page
+@model ClubBAIST.Pages.TeeTimePage.UpdateTeeTimeModel
+@{
+    ViewData["Title"] = "Update Tee Time";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (Model.Confirmation)
+{
+    <div class="alert alert-success" role="alert">
+        @Model.Message
+    </div>
+}
+
+
+<form method="post">
+<div class="form-group" style="display: none;">
+    <label asp-for="StandingID">Standing ID:</label>
+    <input asp-for="StandingID" class="form-control" readonly />
+</div>
+
+
+    <div class="form-group">
+        <label asp-for="MemberNumber1">MemberID:</label>
+        <input asp-for="MemberNumber1" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label asp-for="Name1">Full Name:</label>
+        <input asp-for="Name1" class="form-control" readonly />
+    </div>
+        <div class="form-group">
+        <label asp-for="MemberNumber2">MemberID:</label>
+        <input asp-for="MemberNumber2" class="form-control"  />
+    </div>
+    <div class="form-group">
+        <label asp-for="Name2">Full Name:</label>
+        <input asp-for="Name2" class="form-control"  />
+    </div>
+    <div class="form-group">
+        <label asp-for="MemberNumber3">MemberID:</label>
+        <input asp-for="MemberNumber3" class="form-control"  />
+    </div>
+    <div class="form-group">
+        <label asp-for="Name3">Full Name:</label>
+        <input asp-for="Name3" class="form-control"  />
+    </div>
+    <div class="form-group">
+        <label asp-for="MemberNumber4">MemberID:</label>
+        <input asp-for="MemberNumber4" class="form-control"  />
+    </div>
+    <div class="form-group">
+        <label asp-for="Name4">FullName:</label>
+        <input asp-for="Name4" class="form-control"  />
+    </div>
+    <div class="form-group">
+        <label for="RequestedTeeTime">Requested Tee Time:</label>
+        <input type="time" class="form-control" id="RequestedTeeTime" asp-for="RequestedTeeTime">
+        <span asp-validation-for="RequestedTeeTime" class="text-danger"></span>
+
+    </div>
+
+    <div class="form-group">
+        <label for="RequestedDate">Requested Date:</label>
+        <input type="date" class="form-control" id="RequestedDate" asp-for="RequestedDate">
+        <span asp-validation-for="RequestedDate" class="text-danger"></span>
+
+    </div>
+    <button type="submit" class="btn btn-primary">Update Tee Time</button>
+</form>
+
+@section Scripts {
+    <script>
+        // Function to calculate the date of the next Sunday
+        function getNextSunday() {
+            var today = new Date();
+            var dayOfWeek = today.getDay();
+            var daysToAdd = 7 - dayOfWeek;
+            var nextSunday = new Date(today);
+            nextSunday.setDate(today.getDate() + daysToAdd);
+            return nextSunday.toISOString().slice(0, 10);
+        }
+
+        // Set the minimum date for the date input to the next Sunday
+        document.getElementById("RequestedDate").setAttribute("min", getNextSunday());
+    </script>
+}

@@ -1,0 +1,36 @@
+﻿@page
+@model ClubBAIST.Pages.TeeTimePage.TeeTimeListModel
+@{
+    ViewData["Title"] = "Tee Time List";
+}
+@if (Model.TeeTimeList != null && Model.TeeTimeList.Any())
+{
+    <h2>Tee Time Schedule</h2>
+    <table class="table table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var teeTime in Model.TeeTimeList)
+            {
+                <tr>
+                    <td>@teeTime.RequestedDate.ToString("MMMM dd, yyyy")</td>
+                    <td>@teeTime.RequestedTeeTime</td>
+                    <td>
+                        <a class="btn btn-primary btn-sm" asp-page="./UpdateTeeTime" asp-route-id="@teeTime.StandingID">Update Tee Time</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-info" role="alert">
+        No tee times found.
+    </div>
+}

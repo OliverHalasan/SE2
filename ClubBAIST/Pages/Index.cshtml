@@ -1,0 +1,29 @@
+﻿@page
+@model ClubBAIST.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <h1 class="text-center">Welcome to Club BAIST</h1>
+            <p class="lead text-center">Your premier destination for golf enthusiasts!</p>
+            <hr>
+            <p>Club BAIST offers top-notch golfing facilities, beautiful courses, and a welcoming community of fellow golfers. Whether you're a seasoned pro or just starting out, we have something for everyone.</p>
+            <p>Explore our website to book tee times, learn about upcoming events, or join our membership program for exclusive benefits.</p>
+            <div class="text-center">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <a class="btn btn-primary btn-lg" href="/TeeTimePage/BookTeeTime">Book Tee Time</a>
+                }
+                else
+                {
+                    <a class="btn btn-secondary btn-lg" href="/Member/MemberApplication">Join Now</a>
+                }
+                
+               
+            </div>
+        </div>
+    </div>
+</div>
