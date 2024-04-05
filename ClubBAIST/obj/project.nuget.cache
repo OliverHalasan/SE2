@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+0k6/RzdkUcOn6NWxiFk+Xy+LFzGp4tyPz+NM4E+Pv0gJxBPn7EyZzjXsP+yABAy0Z1srWMsNWHmpvHAIxOJ+w==",
+  "dgSpecHash": "GnlGXtWr4QdFp0IAEASoysvOKK/T3nVaetqH9G3lVkhrpYcxMPtcv7J1pz5GxEBUHRt00P64JDa9/7fDZ8aI9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\john_\\OneDrive\\Desktop\\BAIS\\ClubBAIST\\ClubBAIST.csproj",
+  "projectFilePath": "C:\\Users\\john_\\OneDrive\\Desktop\\SE2\\ClubBAIST\\ClubBAIST.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\john_\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\john_\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

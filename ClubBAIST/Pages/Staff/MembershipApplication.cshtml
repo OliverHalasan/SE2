@@ -1,0 +1,87 @@
+﻿@page
+@model ClubBAIST.Pages.Staff.MembershipApplicationModel
+@{
+    ViewData["Title"] = "Membership Application";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <tr>
+        <th>First Name</th>
+        <td>@Model.FirstName</td>
+    </tr>
+    <tr>
+        <th>Last Name</th>
+        <td>@Model.LastName</td>
+    </tr>
+    <tr>
+        <th>Address</th>
+        <td>@Model.Address</td>
+    </tr>
+    <tr>
+        <th>Postal Code</th>
+        <td>@Model.PostalCode</td>
+    </tr>
+    <tr>
+        <th>Phone</th>
+        <td>@Model.Phone</td>
+    </tr>
+    <tr>
+        <th>Alternate Phone</th>
+        <td>@Model.AlterPhone</td>
+    </tr>
+    <tr>
+        <th>Company Name</th>
+        <td>@Model.CompanyName</td>
+    </tr>
+    <tr>
+        <th>Email</th>
+        <td>@Model.Email</td>
+    </tr>
+    <tr>
+        <th>Date of Birth</th>
+        <td>@Model.DateOfBirth.ToString("yyyy-MM-dd")</td>
+    </tr>
+    <tr>
+        <th>Membership Type</th>
+        <td>@Model.MembershipTypeID</td>
+    </tr>
+    <tr>
+        <th>Status</th>
+        <td>
+            @if (Model.Approved == "D")
+            {
+                <span>Rejected</span>
+            }
+            else
+            if (Model.Approved == "A")
+            {
+                <span>Approved</span>
+            }
+            else
+            if (Model.Approved == "W")
+            {
+                <span>Waiting List</span>
+            }
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <form method="post">
+                <input asp-for="Approved" id="approvalInput" hidden />
+
+                <button type="submit" onclick="setApproval('A')">Approve</button>
+                <button type="submit" onclick="setApproval('D')">Reject</button>
+            </form>
+        </td>
+    </tr>
+</table>
+
+<script>
+    function setApproval(value) {
+        document.getElementById('approvalInput').value = value;
+    }
+</script>
+

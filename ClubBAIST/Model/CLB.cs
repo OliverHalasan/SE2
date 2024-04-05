@@ -31,6 +31,22 @@ namespace ClubBAIST.Model
             return WaitingList;
         }
 
+        public List<Member> ApprovedMemberApplication()
+        {
+            Members MembersManager = new();
+            List<Member> ApproveList;
+            ApproveList = MembersManager.ApprovedMemberApplicationList();
+            return ApproveList;
+        }
+
+        public List<Member> RejectedMemberApplication()
+        {
+            Members MembersManager = new();
+            List<Member> RejectList;
+            RejectList = MembersManager.RejectMemberApplicationList();
+            return RejectList;
+        }
+
         public bool newTeeTime(string memberNumber1, string name1, string memberNumber2, string name2, string memberNumber3, string name3, string memberNumber4, string name4, TimeOnly requestedTeeTime, DateOnly requestedDate)
         {
             bool Confirmation;
@@ -66,5 +82,21 @@ namespace ClubBAIST.Model
             return ActiveTeeTime;
         }
 
+        public Member FindMembershipApplication(int memberID)
+        {
+            Members MemberManager = new();
+            Member ActiveMemberApplication;
+            ActiveMemberApplication = MemberManager.GetMemberApplication(memberID);
+            return ActiveMemberApplication;
+        }
+
+        public bool UpdateMemberApplication(int memberID, string approved)
+        {
+            bool Confirmation;
+            Members MemberManager = new();
+            Confirmation = MemberManager.ApproveMemberApplication(memberID, approved);
+            return Confirmation;
+
+        }
     }
 }

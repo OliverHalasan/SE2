@@ -13,8 +13,9 @@
             <th>Last Name</th>
             <th>Email</th>
             <th>Date of Birth</th>
-            <th>Membership Type</th>
             <th>Approval Status</th>
+            <th>MemberID</th>
+
         </tr>
     </thead>
     <tbody>
@@ -25,8 +26,23 @@
                 <td>@member.LastName</td>
                 <td>@member.Email</td>
                 <td>@member.DateOfBirth.ToShortDateString()</td>
-                <td>@member.MembershipTypeID</td>
-                <td>@member.Approved</td>
+                <td>
+                    @if (member.Approved == "D")
+                    {
+                        <span>Rejected</span>
+                    }
+                    else
+                   if (member.Approved == "A")
+                    {
+                        <span>Approved</span>
+                    }
+                    else
+                   if (member.Approved == "W")
+                    {
+                        <span>Waiting List</span>
+                    }
+                </td>
+                <td><a class="btn btn-primary btn-sm" asp-page="./MembershipApplication" asp-route-id="@member.MemberID">View Application</a></td>
             </tr>
         }
     </tbody>

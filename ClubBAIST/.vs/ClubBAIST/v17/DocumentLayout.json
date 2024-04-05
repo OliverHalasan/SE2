@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\john_\\OneDrive\\Desktop\\SE2\\ClubBAIST\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22BBD8C0-730A-409E-9E2D-6F98EFF123A1}|ClubBAIST.csproj|c:\\users\\john_\\onedrive\\desktop\\se2\\clubbaist\\pages\\member\\memberapplication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22BBD8C0-730A-409E-9E2D-6F98EFF123A1}|ClubBAIST.csproj|solutionrelative:pages\\member\\memberapplication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22BBD8C0-730A-409E-9E2D-6F98EFF123A1}|ClubBAIST.csproj|c:\\users\\john_\\onedrive\\desktop\\se2\\clubbaist\\pages\\member\\memberapplication.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22BBD8C0-730A-409E-9E2D-6F98EFF123A1}|ClubBAIST.csproj|solutionrelative:pages\\member\\memberapplication.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22BBD8C0-730A-409E-9E2D-6F98EFF123A1}|ClubBAIST.csproj|c:\\users\\john_\\onedrive\\desktop\\se2\\clubbaist\\technicalservices\\members.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22BBD8C0-730A-409E-9E2D-6F98EFF123A1}|ClubBAIST.csproj|solutionrelative:technicalservices\\members.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22BBD8C0-730A-409E-9E2D-6F98EFF123A1}|ClubBAIST.csproj|c:\\users\\john_\\onedrive\\desktop\\se2\\clubbaist\\model\\clb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22BBD8C0-730A-409E-9E2D-6F98EFF123A1}|ClubBAIST.csproj|solutionrelative:model\\clb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22BBD8C0-730A-409E-9E2D-6F98EFF123A1}|ClubBAIST.csproj|c:\\users\\john_\\onedrive\\desktop\\se2\\clubbaist\\model\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22BBD8C0-730A-409E-9E2D-6F98EFF123A1}|ClubBAIST.csproj|solutionrelative:model\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22BBD8C0-730A-409E-9E2D-6F98EFF123A1}|ClubBAIST.csproj|c:\\users\\john_\\onedrive\\desktop\\se2\\clubbaist\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22BBD8C0-730A-409E-9E2D-6F98EFF123A1}|ClubBAIST.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Members.cs",
+              "DocumentMoniker": "C:\\Users\\john_\\OneDrive\\Desktop\\SE2\\ClubBAIST\\TechnicalServices\\Members.cs",
+              "RelativeDocumentMoniker": "TechnicalServices\\Members.cs",
+              "ToolTip": "C:\\Users\\john_\\OneDrive\\Desktop\\SE2\\ClubBAIST\\TechnicalServices\\Members.cs",
+              "RelativeToolTip": "TechnicalServices\\Members.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T07:52:52.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\john_\\OneDrive\\Desktop\\SE2\\ClubBAIST\\Model\\Member.cs",
+              "RelativeDocumentMoniker": "Model\\Member.cs",
+              "ToolTip": "C:\\Users\\john_\\OneDrive\\Desktop\\SE2\\ClubBAIST\\Model\\Member.cs",
+              "RelativeToolTip": "Model\\Member.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAA5wBUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T07:51:10.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CLB.cs",
+              "DocumentMoniker": "C:\\Users\\john_\\OneDrive\\Desktop\\SE2\\ClubBAIST\\Model\\CLB.cs",
+              "RelativeDocumentMoniker": "Model\\CLB.cs",
+              "ToolTip": "C:\\Users\\john_\\OneDrive\\Desktop\\SE2\\ClubBAIST\\Model\\CLB.cs",
+              "RelativeToolTip": "Model\\CLB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T07:50:35.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\john_\\OneDrive\\Desktop\\SE2\\ClubBAIST\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\john_\\OneDrive\\Desktop\\SE2\\ClubBAIST\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T07:29:12.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MemberApplication.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\john_\\OneDrive\\Desktop\\SE2\\ClubBAIST\\Pages\\Member\\MemberApplication.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Member\\MemberApplication.cshtml.cs",
+              "ToolTip": "C:\\Users\\john_\\OneDrive\\Desktop\\SE2\\ClubBAIST\\Pages\\Member\\MemberApplication.cshtml.cs",
+              "RelativeToolTip": "Pages\\Member\\MemberApplication.cshtml.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAA0wE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T07:24:28.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MemberApplication.cshtml",
+              "DocumentMoniker": "C:\\Users\\john_\\OneDrive\\Desktop\\SE2\\ClubBAIST\\Pages\\Member\\MemberApplication.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Member\\MemberApplication.cshtml",
+              "ToolTip": "C:\\Users\\john_\\OneDrive\\Desktop\\SE2\\ClubBAIST\\Pages\\Member\\MemberApplication.cshtml",
+              "RelativeToolTip": "Pages\\Member\\MemberApplication.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAGwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T07:22:15.824Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

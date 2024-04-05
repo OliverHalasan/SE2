@@ -7,44 +7,6 @@ namespace ClubBAIST.Pages.Staff
 {
     public class ApplicationListModel : PageModel
     {
-        [BindProperty]
-        public string FirstName { get; set; }
-
-        [BindProperty]
-        public string LastName { get; set; }
-
-        [BindProperty]
-        public string Address { get; set; }
-
-        [BindProperty]
-        public string PostalCode { get; set; }
-
-        [BindProperty]
-        public string Phone { get; set; }
-
-        [BindProperty]
-        public string AlterPhone { get; set; }
-
-        [BindProperty]
-        public string CompanyName { get; set; }
-
-        [BindProperty]
-        public string AddressLine1 { get; set; }
-
-        [BindProperty]
-        public string AddressLine2 { get; set; }
-
-        [BindProperty]
-        public string Email { get; set; }
-
-        [BindProperty]
-        public DateTime DateOfBirth { get; set; }
-
-        [BindProperty]
-        public int MembershipTypeID { get; set; }
-
-        [BindProperty]
-        public string Role { get; set; }
 
         [BindProperty]
         public List<Model.Member> ApplicationList { get; set; } = new List<Model.Member>();
@@ -58,6 +20,7 @@ namespace ClubBAIST.Pages.Staff
             {
                 ApplicationList.Add(new Model.Member
                 {
+                    MemberID = app.MemberID,
                     FirstName = app.FirstName,
                     LastName = app.LastName,
                     Address = app.Address,
@@ -74,6 +37,8 @@ namespace ClubBAIST.Pages.Staff
                     Approved = app.Approved,
                 });
             }
+
+
 
         }
     }

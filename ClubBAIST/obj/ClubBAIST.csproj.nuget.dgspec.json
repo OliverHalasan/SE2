@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\john_\\OneDrive\\Desktop\\BAIS\\ClubBAIST\\ClubBAIST.csproj": {}
+    "C:\\Users\\john_\\OneDrive\\Desktop\\SE2\\ClubBAIST\\ClubBAIST.csproj": {}
   },
   "projects": {
-    "C:\\Users\\john_\\OneDrive\\Desktop\\BAIS\\ClubBAIST\\ClubBAIST.csproj": {
+    "C:\\Users\\john_\\OneDrive\\Desktop\\SE2\\ClubBAIST\\ClubBAIST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\john_\\OneDrive\\Desktop\\BAIS\\ClubBAIST\\ClubBAIST.csproj",
+        "projectUniqueName": "C:\\Users\\john_\\OneDrive\\Desktop\\SE2\\ClubBAIST\\ClubBAIST.csproj",
         "projectName": "ClubBAIST",
-        "projectPath": "C:\\Users\\john_\\OneDrive\\Desktop\\BAIS\\ClubBAIST\\ClubBAIST.csproj",
+        "projectPath": "C:\\Users\\john_\\OneDrive\\Desktop\\SE2\\ClubBAIST\\ClubBAIST.csproj",
         "packagesPath": "C:\\Users\\john_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\john_\\OneDrive\\Desktop\\BAIS\\ClubBAIST\\obj\\",
+        "outputPath": "C:\\Users\\john_\\OneDrive\\Desktop\\SE2\\ClubBAIST\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -77,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
