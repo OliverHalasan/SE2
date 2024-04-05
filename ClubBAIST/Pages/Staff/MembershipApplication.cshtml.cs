@@ -103,7 +103,7 @@ namespace ClubBAIST.Pages.Staff
                 Confirmation = RequestDirector.UpdateMemberApplication(MemberID, Approved);
                 if (Confirmation)
                 {
-                    Message = "Modify Sucess";
+                    Message = "Approved";
                     RedirectToPage("/Staff/ApplicationList");
                 }
                 else

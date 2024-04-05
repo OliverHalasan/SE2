@@ -9,91 +9,91 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ClubBAIST
 build_property.RootNamespace = ClubBAIST
-build_property.ProjectDir = C:\Users\john_\OneDrive\Desktop\SE2\ClubBAIST\
+build_property.ProjectDir = C:\Users\jhalasan1\Desktop\New folder\SE2\ClubBAIST\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\john_\OneDrive\Desktop\SE2\ClubBAIST
+build_property.MSBuildProjectDirectory = C:\Users\jhalasan1\Desktop\New folder\SE2\ClubBAIST
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/john_/OneDrive/Desktop/SE2/ClubBAIST/Pages/Admin/Forbidden.cshtml]
+[C:/Users/jhalasan1/Desktop/New folder/SE2/ClubBAIST/Pages/Admin/Forbidden.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRm9yYmlkZGVuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/john_/OneDrive/Desktop/SE2/ClubBAIST/Pages/Admin/Index.cshtml]
+[C:/Users/jhalasan1/Desktop/New folder/SE2/ClubBAIST/Pages/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/john_/OneDrive/Desktop/SE2/ClubBAIST/Pages/Admin/Logout.cshtml]
+[C:/Users/jhalasan1/Desktop/New folder/SE2/ClubBAIST/Pages/Admin/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/john_/OneDrive/Desktop/SE2/ClubBAIST/Pages/Error.cshtml]
+[C:/Users/jhalasan1/Desktop/New folder/SE2/ClubBAIST/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/john_/OneDrive/Desktop/SE2/ClubBAIST/Pages/Index.cshtml]
+[C:/Users/jhalasan1/Desktop/New folder/SE2/ClubBAIST/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/john_/OneDrive/Desktop/SE2/ClubBAIST/Pages/Login.cshtml]
+[C:/Users/jhalasan1/Desktop/New folder/SE2/ClubBAIST/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/john_/OneDrive/Desktop/SE2/ClubBAIST/Pages/Member/Index.cshtml]
+[C:/Users/jhalasan1/Desktop/New folder/SE2/ClubBAIST/Pages/Member/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/john_/OneDrive/Desktop/SE2/ClubBAIST/Pages/Member/MemberApplication.cshtml]
+[C:/Users/jhalasan1/Desktop/New folder/SE2/ClubBAIST/Pages/Member/MemberApplication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyXE1lbWJlckFwcGxpY2F0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/john_/OneDrive/Desktop/SE2/ClubBAIST/Pages/Privacy.cshtml]
+[C:/Users/jhalasan1/Desktop/New folder/SE2/ClubBAIST/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/john_/OneDrive/Desktop/SE2/ClubBAIST/Pages/Shared/_Layout.cshtml]
+[C:/Users/jhalasan1/Desktop/New folder/SE2/ClubBAIST/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/john_/OneDrive/Desktop/SE2/ClubBAIST/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/jhalasan1/Desktop/New folder/SE2/ClubBAIST/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/john_/OneDrive/Desktop/SE2/ClubBAIST/Pages/Staff/ApplicationList.cshtml]
+[C:/Users/jhalasan1/Desktop/New folder/SE2/ClubBAIST/Pages/Staff/ApplicationList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcQXBwbGljYXRpb25MaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/john_/OneDrive/Desktop/SE2/ClubBAIST/Pages/Staff/ApproveApplication.cshtml]
+[C:/Users/jhalasan1/Desktop/New folder/SE2/ClubBAIST/Pages/Staff/ApproveApplication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcQXBwcm92ZUFwcGxpY2F0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/john_/OneDrive/Desktop/SE2/ClubBAIST/Pages/Staff/MembershipApplication.cshtml]
+[C:/Users/jhalasan1/Desktop/New folder/SE2/ClubBAIST/Pages/Staff/MembershipApplication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcTWVtYmVyc2hpcEFwcGxpY2F0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/john_/OneDrive/Desktop/SE2/ClubBAIST/Pages/Staff/RejectedApplication.cshtml]
+[C:/Users/jhalasan1/Desktop/New folder/SE2/ClubBAIST/Pages/Staff/RejectedApplication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcUmVqZWN0ZWRBcHBsaWNhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/john_/OneDrive/Desktop/SE2/ClubBAIST/Pages/TeeTimePage/BookTeeTime.cshtml]
+[C:/Users/jhalasan1/Desktop/New folder/SE2/ClubBAIST/Pages/TeeTimePage/BookTeeTime.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVlVGltZVBhZ2VcQm9va1RlZVRpbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/john_/OneDrive/Desktop/SE2/ClubBAIST/Pages/TeeTimePage/TeeTimeList.cshtml]
+[C:/Users/jhalasan1/Desktop/New folder/SE2/ClubBAIST/Pages/TeeTimePage/TeeTimeList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVlVGltZVBhZ2VcVGVlVGltZUxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/john_/OneDrive/Desktop/SE2/ClubBAIST/Pages/TeeTimePage/UpdateTeeTime.cshtml]
+[C:/Users/jhalasan1/Desktop/New folder/SE2/ClubBAIST/Pages/TeeTimePage/UpdateTeeTime.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVlVGltZVBhZ2VcVXBkYXRlVGVlVGltZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/john_/OneDrive/Desktop/SE2/ClubBAIST/Pages/_ViewImports.cshtml]
+[C:/Users/jhalasan1/Desktop/New folder/SE2/ClubBAIST/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/john_/OneDrive/Desktop/SE2/ClubBAIST/Pages/_ViewStart.cshtml]
+[C:/Users/jhalasan1/Desktop/New folder/SE2/ClubBAIST/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

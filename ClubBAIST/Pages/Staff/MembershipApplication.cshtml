@@ -6,6 +6,7 @@
 
 <h1>@ViewData["Title"]</h1>
 
+@Model.Message
 <table class="table">
     <tr>
         <th>First Name</th>
@@ -42,10 +43,6 @@
     <tr>
         <th>Date of Birth</th>
         <td>@Model.DateOfBirth.ToString("yyyy-MM-dd")</td>
-    </tr>
-    <tr>
-        <th>Membership Type</th>
-        <td>@Model.MembershipTypeID</td>
     </tr>
     <tr>
         <th>Status</th>

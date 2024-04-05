@@ -313,11 +313,11 @@ namespace ClubBAIST.TechnicalServices
                 ExisitingApplicationMember.Address = (string)reader["Address"];
                 ExisitingApplicationMember.PostalCode = (string)reader["PostalCode"];
                 ExisitingApplicationMember.Phone = (string)reader["Phone"];
-                ExisitingApplicationMember.AlterPhone = (string)reader["AlterPhone"];
+                ExisitingApplicationMember.AlterPhone = reader["AlterPhone"] != DBNull.Value ? (string)reader["AlterPhone"] : null;
                 ExisitingApplicationMember.Occupation = (string)reader["Occupation"];
                 ExisitingApplicationMember.CompanyName = (string)reader["CompanyName"];
                 ExisitingApplicationMember.AddressLine1 = (string)reader["AddressLine1"];
-                ExisitingApplicationMember.AddressLine2 = (string)reader["AddressLine2"];
+                ExisitingApplicationMember.AddressLine2 = reader["AddressLine2"] != DBNull.Value ? (string)reader["AddressLine2"] : null;
                 ExisitingApplicationMember.Email = (string)reader["Email"];
                 ExisitingApplicationMember.DateOfBirth = DateOnly.FromDateTime((DateTime)reader["DateOfBirth"]);
                 ExisitingApplicationMember.Approved = (string)reader["Approved"];
